@@ -1,4 +1,4 @@
-import PrimaryButton from "./Buttons";
+import PrimaryButton from "./Utilities/Buttons";
 import { TiSocialFacebook, TiSocialInstagram, TiSocialLinkedin, TiSocialTwitter } from "react-icons/ti";
 import { MdLightMode } from "react-icons/md";
 import { MdNightlightRound } from "react-icons/md";

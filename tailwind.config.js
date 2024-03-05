@@ -3,7 +3,8 @@ export default {
   darkMode: 'class',
   content: ["./index.html",
   "./src/**/*.{js,ts,jsx,tsx}",
-  "./node_modules/tw-elements/js/**/*.js"
+  "./node_modules/tw-elements/js/**/*.js",
+  'node_modules/flowbite-react/lib/esm/**/*.js',
   ],
   
   screens: {
@@ -33,7 +34,7 @@ export default {
     },
   },
   plugins: [
-    require("tw-elements/plugin.cjs")
+    require("tw-elements/plugin.cjs"),
+    require('flowbite/plugin'),
   ],
 }
-
