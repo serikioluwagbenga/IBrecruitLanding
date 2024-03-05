@@ -1,12 +1,13 @@
 import './css/App.css'
-import Header from './componet/Header'
+import Navbar from './componet/Navbar/Navbar'
+import Slider from './componet/Slider'
 function App() {
 
   return (
     <>
       <div className='bg-white dark:bg-slate-900 dark:text-white'>
-        <Header></Header>
-        <h1>Welcome</h1>
+        <Navbar></Navbar>
+        <Slider></Slider>
       </div>
     </>
   )
