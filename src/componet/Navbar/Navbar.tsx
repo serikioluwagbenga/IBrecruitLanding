@@ -41,6 +41,8 @@ const Navbar = () => {
                 {/* Mobile nav */}
                 <ul
                     className={`
+                    z-20
+                    h-dvh
                     dark:bg-slate-900
         md:hidden bg-white fixed w-full top-0 overflow-y-auto bottom-0 py-24 pl-4
         duration-500 ${open ? "left-0" : "left-[-100%]"}
