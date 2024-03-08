@@ -1,6 +1,6 @@
 import Testimony from "./Testimony";
-import Countainer from "./Utilities/Countainer"
-import Heading from "./Utilities/Heading"
+import Countainer from "../Utilities/Countainer"
+import Heading from "../Utilities/Heading"
 
 function Testimonies({ testimonies = [] }) {
     var no = testimonies.length / 3;
@@ -35,9 +35,6 @@ function Testimonies({ testimonies = [] }) {
 export default Testimonies
 
 
-function count(testimonies: never[]) {
-    return testimonies.length;
-}
 
 function slipt_data(testimonies: never[], size: string) {
     try {

@@ -4,3 +4,17 @@
 li {
     list-style: none;
 }
+.roundImg {
+    @apply object-cover object-center w-full mb-8 lg:h-48 md:h-36 rounded-xl;
+}
+
+.badge {
+   @apply inline-block px-3 py-1 text-sm font-semibold text-indigo-100 rounded-lg md:text-center  bg-primary  hover:cursor-pointer hover:bg-opacity-40
+}
+
+.text {
+    @apply mx-auto text-base leading-relaxed text-gray-dark dark:text-gray-light;
+}
+.card {
+    @apply p-6 space-y-6 leading-none rounded-lg bg-white dark:bg-slate-800 shadow-3;
+}
