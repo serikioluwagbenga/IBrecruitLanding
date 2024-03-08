@@ -3,6 +3,7 @@ import { TiSocialFacebook, TiSocialInstagram, TiSocialLinkedin, TiSocialTwitter 
 import { MdLightMode } from "react-icons/md";
 import { MdNightlightRound } from "react-icons/md";
 import { useState } from "react";
+import { logo } from "../data";
 function Header() {
     var [isDark, setIsDark] = useState(false);
     function toggleTheme() {
@@ -11,7 +12,7 @@ function Header() {
     }
     return <header className="flex justify-center items-center">
         <div className="flex w-[80%] justify-center items-center my-3">
-            <div className="logo w-[300px]"><img src="/assets/images/main.svg" alt="" /></div>
+            <div className="logo w-[300px]"><img src={logo} alt="" /></div>
             <nav className="flex-auto flex gap-6  justify-end items-center">
                 <li>Home</li>
                 <li>About</li>

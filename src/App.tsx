@@ -7,6 +7,7 @@ import Companys from './componet/Companys';
 import Testimonies from './componet/Testimonies/Testimonies';
 import { Calltoaction, ServicesList, blogs, testimonies } from './data';
 import { Blogs } from './componet/Blogs/Blogs';
+import { Footer } from './componet/Footer';
 function App() {
   return (
     <>
@@ -19,6 +20,7 @@ function App() {
         <Testimonies testimonies={testimonies}/>
         <Blogs blogs={blogs}/>
         <CallToAction details={Calltoaction} className='mt-10' bg='bg-primary' btnBg='bg-green'/>
+        <Footer />
       </div>
     </>
   )
