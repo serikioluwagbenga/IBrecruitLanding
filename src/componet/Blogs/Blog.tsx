@@ -4,7 +4,7 @@ import PrimaryButton from "../Utilities/Buttons";
 
 function Blog({blog}) {
     const des = blog.description;
-    return <a href={blog.action} className="card p-4 space-y-2 border-b-2 border-green">
+    return <a href={blog.action} className="card md:p-4 space-y-2 border-b-2 border-green">
        <img src={blog.img} className="roundImg"  alt={blog.title} />
        <div className="badge ">Blog</div>
        <h4 className="text-xl font-bold ">{blog.title}</h4>
