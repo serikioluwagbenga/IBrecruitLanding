@@ -4,7 +4,7 @@ import Countainer from "./Utilities/Countainer";
 import { IoLocationSharp } from "react-icons/io5";
 import { MdEmail, MdPhone } from "react-icons/md";
 
-export  const Footer = ({className}) => {
+export  const Footer = ({className = ""}) => {
     return  <footer className="relative pt-20 bg-slate-900/90 text-white border-t-4 border-green">
         <img src="https://images.pexels.com/photos/5373705/pexels-photo-5373705.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="absolute top-0 left-0 w-full h-full object-cover -z-10" alt="" />
         <Countainer>

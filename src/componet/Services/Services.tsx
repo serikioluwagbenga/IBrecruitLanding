@@ -1,7 +1,7 @@
 import Countainer from "../Utilities/Countainer";
 import Heading from "../Utilities/Heading";
 import List from "../Utilities/List";
-import Service from "./Service";
+import ServiceCard from "./ServiceCard";
 
 function Services({ services }) {
     return <section className="py-20 bg-inherit">
@@ -10,7 +10,7 @@ function Services({ services }) {
             {services.length > 0 && services ? 
             <List className="relative">
                 {services.map((service: any) => (
-                    <Service service={service} />
+                    <ServiceCard service={service} />
                 ))}
             </List> : "No service available"}
         </Countainer>

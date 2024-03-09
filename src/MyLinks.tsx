@@ -1,11 +1,14 @@
+import { ServicesList } from "./data";
 export const links = [
   {
     name: "Home",
     submenu: false,
+    link: '/',
     sublinks: [],
   },
   {
     name: "About Us",
+    link: '/about',
     submenu: false,
     sublinks: [],
   },
@@ -21,13 +24,12 @@ export const links = [
     sublinks: [
       {
         Head: "Services",
-        sublink: [
-          { name: "T-shirt", link: "/" },
-          { name: "Casual shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-          { name: "formal shirts", link: "/" },
-        ],
+        sublink: ServicesList.length > 0 ? ServicesList.map((service) => (
+          {
+            name: service.title,
+            link: '/service/'+service.slug,
+          }
+        )) : [{}],
       },
 
     ],
@@ -39,3 +41,4 @@ export const links = [
   },
 
 ];
+

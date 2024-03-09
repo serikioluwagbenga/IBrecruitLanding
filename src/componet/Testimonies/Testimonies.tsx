@@ -1,14 +1,14 @@
 import Testimony from "./Testimony";
 import Countainer from "../Utilities/Countainer"
 import Heading from "../Utilities/Heading"
+import { ImageBackdrop } from "../Utilities/ImageBackdrop";
 
 function Testimonies({ testimonies = [] }) {
     var no = testimonies.length / 3;
     const size = no.toFixed(0);
     var data = slipt_data(testimonies, size);
     return <section id="testimonies" className="py-20  relative">
-        <img src="https://images.pexels.com/photos/417344/pexels-photo-417344.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="absolute top-0 left-0 min-h-screen min-w-full object-cover  -z-10" alt="" />
-        <div className="absolute top-0 left-0 min-h-full min-w-full bg-white/70 dark:bg-slate-950/70 backdrop-blur"></div>
+        <ImageBackdrop img={`https://images.pexels.com/photos/417344/pexels-photo-417344.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1`}/>
         <Countainer>
             <Heading subtitle="words from others" title="it's is not just us" description="Here's what others have to say about us."></Heading>
             <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 lg:gap-8">

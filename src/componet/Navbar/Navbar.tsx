@@ -1,10 +1,8 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
 import NavLinks from "./NavLinks";
 import PrimaryButton from "../Utilities/Buttons";
 import { IoMenu, IoClose } from "react-icons/io5";
 import { MdLightMode, MdNightlightRound } from "react-icons/md";
-import { TiSocialFacebook, TiSocialTwitter, TiSocialInstagram, TiSocialLinkedin } from "react-icons/ti";
 import Countainer from "../Utilities/Countainer";
 const Navbar = () => {
     const [open, setOpen] = useState(false);
@@ -24,7 +22,7 @@ const Navbar = () => {
                 </div>
                 <ul className="md:flex hidden flex-auto  justify-end items-center w-auto">
 
-                    <NavLinks />
+                    <NavLinks onChangeOpen={setOpen}/>
                 </ul>
                 <div className="md:block hidden">
                     <PrimaryButton>Jobs</PrimaryButton>
@@ -49,7 +47,7 @@ const Navbar = () => {
         `}
                 >
 
-                    <NavLinks />
+                    <NavLinks onChangeOpen={setOpen}/>
 
                     <div className="py-5">
                         <PrimaryButton>Get started</PrimaryButton>

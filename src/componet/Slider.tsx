@@ -1,7 +1,6 @@
 
-import { Carousel } from 'flowbite-react';
 import PrimaryButton from './Utilities/Buttons';
-
+import { Carousel } from 'flowbite-react';
 function Slider() {
     var sliders = [
         {
