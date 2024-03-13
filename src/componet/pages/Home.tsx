@@ -11,8 +11,8 @@ export const Home = ({}) => {
         <CallToAction details={Calltoaction}/>
         <Services services={ServicesList}/>
         <Companys title="Our Clients and Partners"/>
-        <Testimonies testimonies={testimonies}/>
-        <Blogs blogs={blogs}/>
+        <Testimonies/>
+        <Blogs/>
         <CallToAction details={Calltoaction} className='mt-10' bg='bg-primary' btnBg='bg-green'/>
     </div>
 }

@@ -1,11 +1,12 @@
 // import { FcClock } from "react-icons/fc";
 import { FaRegClock } from "react-icons/fa";
 import PrimaryButton from "../Utilities/Buttons";
+import { defaultImg, formatDate } from "../../data";
 
 function Blog({blog}) {
     const des = blog.description;
     return <a href={blog.action} className="card md:p-4 space-y-2 border-b-2 border-green">
-       <img src={blog.img} className="roundImg"  alt={blog.title} />
+       <img src={blog.img != "" ? blog.img : defaultImg} className="roundImg"  alt={blog.title} />
        <div className="badge ">Blog</div>
        <h4 className="text-xl font-bold ">{blog.title}</h4>
        <p className="text pt-3 dark:text-slate-500">{
@@ -14,7 +15,7 @@ function Blog({blog}) {
        <div className="flex justify-between items-center">
         <div className="flex gap-2 dark:text-slate-500 text-slate-400">
         <FaRegClock className="text-green"></FaRegClock>
-            {blog.date}
+            {formatDate(blog.created_at)}
         </div>
         <PrimaryButton bg="bg-green">
             Read more

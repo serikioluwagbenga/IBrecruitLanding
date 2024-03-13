@@ -1,26 +1,6 @@
 export const logo = '/assets/images/main.svg';
-export const blogs = [{
-        title: "Benefits of Having Experience While Applying For a Job",
-        description: "Mock Turtle went on to the Knave 'Turn them over!' The Knave of Hearts, carrying the King's crown on a crimson velvet cushion; and, last of all the same, shedding gallons of tears, until there was room for YOU, and no room at all like the three gardeners, oblong and flat, with their fur clinging close to her great delight it fitted! Alice opened the door as you can--' 'Swim after them!' screamed the Pigeon. 'I'm NOT a serpent, I tell you!' But she went on so long since she had read about them in books, and she went round the refreshments!' But there seemed to be listening, so she went on in the morning, just time to avoid shrinking away altogether. 'That WAS a narrow escape!' said Alice, 'we learned French and music.' 'And washing?' said the Duchess; 'and the moral of that is-- The more there is of mine, the less there is of mine, the less there is of yours. ' 'Oh, I know!' exclaimed Alice, who had got burnt, and eaten up by a very interesting dance to watch,' said Alice, rather.",
-        img: "https://www.protenintl.com/wp-content/uploads/2024/03/70-20-10-model-in-Learning-and-Development-350x250.png",
-        date: "2024-02-17 14:28:30",
-        action: "#"
-    },
-    {
-        title: "Benefits of Having Experience While Applying For a Job",
-        description: "Mock Turtle went on to the Knave 'Turn them over!' The Knave of Hearts, carrying the King's crown on a crimson velvet cushion; and, last of all the same, shedding gallons of tears, until there was room for YOU, and no room at all like the three gardeners, oblong and flat, with their fur clinging close to her great delight it fitted! Alice opened the door as you can--' 'Swim after them!' screamed the Pigeon. 'I'm NOT a serpent, I tell you!' But she went on so long since she had read about them in books, and she went round the refreshments!' But there seemed to be listening, so she went on in the morning, just time to avoid shrinking away altogether. 'That WAS a narrow escape!' said Alice, 'we learned French and music.' 'And washing?' said the Duchess; 'and the moral of that is-- The more there is of mine, the less there is of mine, the less there is of yours. ' 'Oh, I know!' exclaimed Alice, who had got burnt, and eaten up by a very interesting dance to watch,' said Alice, rather.",
-        img: "https://www.protenintl.com/wp-content/uploads/2024/03/70-20-10-model-in-Learning-and-Development-350x250.png",
-        date: "2024-02-17 14:28:30",
-        action: "#"
-    },
-    {
-        title: "Benefits of Having Experience While Applying For a Job",
-        description: "Mock Turtle went on to the Knave 'Turn them over!' The Knave of Hearts, carrying the King's crown on a crimson velvet cushion; and, last of all the same, shedding gallons of tears, until there was room for YOU, and no room at all like the three gardeners, oblong and flat, with their fur clinging close to her great delight it fitted! Alice opened the door as you can--' 'Swim after them!' screamed the Pigeon. 'I'm NOT a serpent, I tell you!' But she went on so long since she had read about them in books, and she went round the refreshments!' But there seemed to be listening, so she went on in the morning, just time to avoid shrinking away altogether. 'That WAS a narrow escape!' said Alice, 'we learned French and music.' 'And washing?' said the Duchess; 'and the moral of that is-- The more there is of mine, the less there is of mine, the less there is of yours. ' 'Oh, I know!' exclaimed Alice, who had got burnt, and eaten up by a very interesting dance to watch,' said Alice, rather.",
-        img: "https://www.protenintl.com/wp-content/uploads/2024/03/70-20-10-model-in-Learning-and-Development-350x250.png",
-        date: "2024-02-17 14:28:30",
-        action: "#"
-    }
-];
+export const defaultAvater = "https://cdn-icons-png.flaticon.com/128/11753/11753675.png";
+export const defaultImg = "https://www.contentviewspro.com/wp-content/uploads/2017/07/default_image.png";
 export const Calltoaction = {
     title: "Book A Free 30-Minutes Consultation",
     description: "Join us today by clicking on the button by the side of this box",
@@ -49,58 +29,19 @@ export const ServicesList = [{
     action: { name: "Get A Job", url: "" },
 }];
 
-export const testimonies = [
-    {
-        name: "Kanye West",
-        position: "Rapper &amp; Entrepreneur",
-        avatar: "https://pbs.twimg.com/profile_images/1276461929934942210/cqNhNk6v_400x400.jpg",
-        body: "Find God.",
-    },
-    {
-        name: "Tim Cook",
-        position: "Rapper &amp; Entrepreneur",
-        avatar: "https://pbs.twimg.com/profile_images/1276461929934942210/cqNhNk6v_400x400.jpg",
-        body: "Diam quis enim lobortis scelerisque fermentum dui faucibus in ornare. Donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum.",
-    },
-    {
-        name: "Kanye West",
-        position: "Rapper &amp; Entrepreneur",
-        avatar: "https://pbs.twimg.com/profile_images/1276461929934942210/cqNhNk6v_400x400.jpg",
-        body: "Enim neque volutpat ac tincidunt vitae semper. Mattis aliquam faucibus purus in massa tempor. Neque vitae tempus quam pellentesque nec. Turpis cursus in hac habitasse platea dictumst.",
-    },
-    {
-        name: "Kanye West",
-        position: "Rapper &amp; Entrepreneur",
-        avatar: "https://pbs.twimg.com/profile_images/1276461929934942210/cqNhNk6v_400x400.jpg",
-        body: "Find God.",
-    },
-    {
-        name: "Kanye West",
-        position: "Rapper &amp; Entrepreneur",
-        avatar: "https://pbs.twimg.com/profile_images/1276461929934942210/cqNhNk6v_400x400.jpg",
-        body: "Enim neque volutpat ac tincidunt vitae semper. Mattis aliquam faucibus purus in massa tempor. Neque vitae tempus quam pellentesque nec. Turpis cursus in hac habitasse platea dictumst.",
-    },
-    {
-        name: "Kanye West",
-        position: "Rapper &amp; Entrepreneur",
-        avatar: "https://pbs.twimg.com/profile_images/1276461929934942210/cqNhNk6v_400x400.jpg",
-        body: "Find God.",
-    },
-    {
-        name: "Kanye West",
-        position: "Rapper &amp; Entrepreneur",
-        avatar: "https://pbs.twimg.com/profile_images/1276461929934942210/cqNhNk6v_400x400.jpg",
-        body: "Enim neque volutpat ac tincidunt vitae semper. Mattis aliquam faucibus purus in massa tempor. Neque vitae tempus quam pellentesque nec. Turpis cursus in hac habitasse platea dictumst.",
-    },
-    {
-        name: "Kanye West",
-        position: "Rapper &amp; Entrepreneur",
-        avatar: "https://pbs.twimg.com/profile_images/1276461929934942210/cqNhNk6v_400x400.jpg",
-        body: "Find God.",
-    },
-];
 
-// export function getValueOfSlug(slug: string): any {
-//     const service = ServicesList.find(service => service.slug === slug);
-//     return service ? service : null;
-// }
+ export const formatDate = (dateString: string | number | Date) => {
+    const date = new Date(dateString);
+    const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+    const days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+
+    const month = months[date.getMonth()];
+    const day = date.getDate();
+    const year = date.getFullYear();
+    const hours = date.getHours();
+    const minutes = ('0' + date.getMinutes()).slice(-2); // Add leading zero if minutes < 10
+    const ampm = hours >= 12 ? 'PM' : 'AM';
+    const formattedHours = hours % 12 || 12; // Convert hours from 24-hour to 12-hour format
+
+    return `${days[date.getDay()]} ${month} ${day}, ${year} ${formattedHours}:${minutes}${ampm}`;
+};
