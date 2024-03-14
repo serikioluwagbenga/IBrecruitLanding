@@ -26,8 +26,8 @@ export const links = [
         Head: "Services",
         sublink: ServicesList.length > 0 ? ServicesList.map((service) => (
           {
-            name: service.title,
-            link: '/service/'+service.slug,
+            name: service.name,
+            link: '/service/'+service.id,
           }
         )) : [{}],
       },

@@ -4,6 +4,7 @@ import PrimaryButton from "../Utilities/Buttons";
 import { IoMenu, IoClose } from "react-icons/io5";
 import { MdLightMode, MdNightlightRound } from "react-icons/md";
 import Countainer from "../Utilities/Countainer";
+import { Link } from "react-router-dom";
 const Navbar = () => {
     const [open, setOpen] = useState(false);
     var [isDark, setIsDark] = useState(false);
@@ -15,7 +16,7 @@ const Navbar = () => {
         <nav className="flex items-center justify-center bg-white/70 dark:bg-slate-900/90 dark:text-white backdrop-blur sticky">
             <Countainer className="flex justify-between items-center my-2">
                 <div className="z-50 p-1 md:w-auto flex justify-between w-[100%]">
-                    <img src='/assets/images/main.svg' alt="logo" className="md:cursor-pointer h-9" />
+                    <Link to={'/'}><img src='/assets/images/main.svg' alt="logo" className="md:cursor-pointer h-9" /></Link>
                     <div className="text-4xl md:hidden" onClick={() => setOpen(!open)}>
                         {open ? <IoClose /> : <IoMenu />}
                     </div>

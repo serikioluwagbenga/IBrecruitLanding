@@ -9,7 +9,7 @@ export const Home = ({}) => {
     return <div>
         <Slider/>
         <CallToAction details={Calltoaction}/>
-        <Services services={ServicesList}/>
+        <Services />
         <Companys title="Our Clients and Partners"/>
         <Testimonies/>
         <Blogs/>
